@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | StudyBuddy</title>
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <span>StudyBuddy</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="btn login-btn">Login</a>
+                <a href="#" class="btn signup-btn">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="courses-hero">
+        <div class="container">
+            <h1>Expand Your Knowledge</h1>
+            <p>Discover the perfect learning path with our expertly crafted courses designed to help you achieve your goals</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for courses...">
+                <button><i class="fas fa-search"></i> Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses -->
+    <section class="all-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Courses</h2>
+                <p>Browse through our most popular courses loved by thousands of students worldwide</p>
+            </div>
+
+            <div class="course-categories">
+                <button class="active">All Categories</button>
+                <button>Programming</button>
+                <button>Business</button>
+                <button>Design</button>
+                <button>Marketing</button>
+                <button>Data Science</button>
+                <button>Photography</button>
+            </div>
+
+            <div class="courses-container">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Web Development">
+                        <div class="price">$49.99</div>
+                        <div class="badge">Bestseller</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Complete Web Development Bootcamp</h3>
+                        <p class="instructor">By John Smith • Senior Developer</p>
+                        <p class="description">Master HTML, CSS, JavaScript, React, Node.js and build real-world projects. Perfect for beginners to advanced developers looking to enhance their skills.</p>
+                        <div class="stats">
+                            <span><i class="fas fa-user-graduate"></i> 12,540+</span>
+                            <div class="rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>(2,340)</span>
+                            </div>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i> 42 hours • 8 modules
+                        </div>
+                        <a href="#" class="enroll-btn">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Data Science">
+                        <div class="price">$59.99</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science & Machine Learning</h3>
+                        <p class="instructor">By Sarah Johnson • Data Scientist</p>
+                        <p class="description">Learn Python, Pandas, NumPy, Matplotlib, Scikit-learn and TensorFlow for data analysis and machine learning applications.</p>
+                        <div class="stats">
+                            <span><i class="fas fa-user-graduate"></i> 8,760+</span>
+                            <div class="rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span>(1,890)</span>
+                            </div>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i> 56 hours • 10 modules
+                        </div>
+                        <a href="#" class="enroll-btn">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobile Development">
+                        <div class="price">$54.99</div>
+                        <div class="badge">New</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Flutter Mobile App Development</h3>
+                        <p class="instructor">By Michael Chen • Mobile Expert</p>
+                        <p class="description">Build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase with Flutter and Dart.</p>
+                        <div class="stats">
+                            <span><i class="fas fa-user-graduate"></i> 5,430+</span>
+                            <div class="rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span>(1,240)</span>
+                            </div>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i> 38 hours • 7 modules
+                        </div>
+                        <a href="#" class="enroll-btn">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Course 4 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Digital Marketing">
+                        <div class="price">$44.99</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Digital Marketing Masterclass</h3>
+                        <p class="instructor">By Emily Wilson • Marketing Guru</p>
+                        <p class="description">Learn SEO, social media marketing, email marketing, Google Ads, Facebook Ads, content marketing and analytics.</p>
+                        <div class="stats">
+                            <span><i class="fas fa-user-graduate"></i> 9,870+</span>
+                            <div class="rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>(2,560)</span>
+                            </div>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i> 32 hours • 6 modules
+                        </div>
+                        <a href="#" class="enroll-btn">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Courses</h2>
+                <p>Hand-picked courses from our experts to help you master in-demand skills</p>
+            </div>
+
+            <!-- Featured Course 1 -->
+            <div class="featured-course">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Python Programming">
+                </div>
+                <div class="featured-content">
+                    <h3>Python Programming Mastery</h3>
+                    <p class="instructor">By David Miller • Python Expert</p>
+                    <p class="description">Go from zero to hero in Python programming with this comprehensive course. Learn Python fundamentals, OOP, data structures, algorithms, web scraping, automation, and build real-world projects.</p>
+                    <div class="featured-stats">
+                        <div><i class="fas fa-user-graduate"></i> 15,320+ students</div>
+                        <div><i class="fas fa-star"></i> 4.9 (3,450 reviews)</div>
+                        <div><i class="fas fa-clock"></i> 48 hours</div>
+                    </div>
+                    <div class="featured-price">$64.99</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Featured Course 2 -->
+            <div class="featured-course">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="UX/UI Design">
+                </div>
+                <div class="featured-content">
+                    <h3>UX/UI Design Fundamentals</h3>
+                    <p class="instructor">By Jessica Lee • Design Director</p>
+                    <p class="description">Master user experience and interface design principles. Learn Figma, Adobe XD, user research, wireframing, prototyping, usability testing, and design thinking methodology.</p>
+                    <div class="featured-stats">
+                        <div><i class="fas fa-user-graduate"></i> 7,890+ students</div>
+                        <div><i class="fas fa-star"></i> 4.8 (1,780 reviews)</div>
+                        <div><i class="fas fa-clock"></i> 36 hours</div>
+                    </div>
+                    <div class="featured-price">$59.99</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Students Say</h2>
+                <p>Join thousands of satisfied students who transformed their careers with our courses</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The Web Development Bootcamp completely changed my career trajectory. Within 3 months of completing the course, I landed my first developer job!
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Alex Johnson">
+                        </div>
+                        <div class="author-info">
+                            <h4>Alex Johnson</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The instructors explain complex topics in such an easy-to-understand way. I went from knowing nothing about Python to building my own applications.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Miller">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Miller</h4>
+                            <p>Data Analyst</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The Digital Marketing course gave me practical skills I could apply immediately to grow my business. Worth every penny and more!
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="James Wilson">
+                        </div>
+                        <div class="author-info">
+                            <h4>James Wilson</h4>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fas fa-book-open"></i>
+                        <span>StudyBuddy</span>
+                    </div>
+                    <p>Making learning accessible and effective for everyone through high-quality online education.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="teachers.html">Teachers</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@studybuddy.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City, 10101</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 StudyBuddy. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #e74c3c;"></i> by StudyBuddy Team</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

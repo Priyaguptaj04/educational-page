@@ -1,7 +1,9 @@
+#EDUCATIONAL WEBSITE
+
 A responsive educational website built using HTML and CSS, featuring multiple sections for an interactive learning experience.
 
 
-Features
+Features :
 
 ✅ Responsive Design – Works on all devices (desktop, tablet, mobile).
 
